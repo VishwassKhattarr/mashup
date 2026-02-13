@@ -38,6 +38,16 @@ def home():
 
     return render_template("index.html")
 
+
+import shutil
+
+if os.path.exists("temp"):
+    shutil.rmtree("temp")
+
+if os.path.exists("final.mp3"):
+    os.remove("final.mp3")
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
 

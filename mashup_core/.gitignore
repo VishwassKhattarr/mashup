@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# runtime files
+temp/
+output/
+*.mp3
+*.zip
+
+# env files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
