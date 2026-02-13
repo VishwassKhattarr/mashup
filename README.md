@@ -202,6 +202,3 @@ gunicorn webapp.app:app
 
 ## Author
 Vishwas Khattar
-
-Vishwas Khattar
-
