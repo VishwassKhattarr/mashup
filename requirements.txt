@@ -1,0 +1,6 @@
+flask
+yt-dlp
+moviepy
+pydub
+gunicorn
+python-dotenv
