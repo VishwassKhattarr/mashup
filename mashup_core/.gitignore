@@ -1,17 +1,47 @@
+# ==============================
 # Python
+# ==============================
 __pycache__/
 *.pyc
-.venv/
+*.pyo
+*.pyd
 
-# runtime files
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# ==============================
+# Runtime generated files
+# ==============================
 temp/
 output/
+webapp/temp/
+
 *.mp3
+*.wav
+*.webm
 *.zip
 
-# env files
+# ==============================
+# Environment variables / secrets
+# ==============================
 .env
 
+# ==============================
+# Logs
+# ==============================
+*.log
+
+# ==============================
 # OS files
+# ==============================
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# ==============================
+# IDE / Editor
+# ==============================
+.vscode/
+.idea/
